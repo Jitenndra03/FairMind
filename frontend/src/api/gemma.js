@@ -25,7 +25,7 @@ Write a clear, empathetic explanation. Do not use jargon. Start with the most im
     const result = await model.generateContent(prompt);
     return result.response.text();
   } catch (error) {
-    console.error('Gemma 4 error:', error);
+    console.error('Gemma 3 error:', error);
     return `This audit found a ${severity} risk bias. The demographic parity ratio is ${overall_metrics.demographic_parity_ratio}, which ${overall_metrics.demographic_parity_ratio < 0.8 ? 'falls below' : 'meets'} the EEOC 80% threshold.`;
   }
 }
