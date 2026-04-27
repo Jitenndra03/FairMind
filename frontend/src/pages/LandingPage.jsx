@@ -39,7 +39,7 @@ export default function LandingPage() {
           <span className="text-2xl">🔍</span>
           <span className="text-xl font-bold text-white">FairLens</span>
           <span className="ml-2 px-2 py-0.5 text-xs bg-blue-500/20 text-blue-300 rounded-full border border-blue-500/30">
-            Powered by Gemma 4
+            Powered by Gemma 3
           </span>
         </div>
         <button
@@ -54,14 +54,14 @@ export default function LandingPage() {
       <div className="max-w-5xl mx-auto px-8 pt-24 pb-16 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-300 text-sm mb-8">
           <span>🤖</span>
-          <span>AI-Powered Bias Detection with Gemma 4</span>
+          <span>AI-Powered Bias Detection with Gemma 3</span>
         </div>
         <h1 className="text-6xl font-bold mb-6 leading-tight">
           Audit your AI before it
           <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-400"> harms real people</span>
         </h1>
         <p className="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">
-          FairLens detects bias in your ML models, explains it using Gemma 4,
+          FairLens detects bias in your ML models, explains it using Gemma 3,
           and applies automated fixes — in under 2 minutes.
         </p>
         <div className="flex items-center justify-center gap-4">
@@ -86,7 +86,7 @@ export default function LandingPage() {
         <div className="grid grid-cols-3 gap-8">
           {[
             { step: '01', icon: '📤', title: 'Upload', desc: 'Upload your CSV dataset or pick one of our demo datasets to get started instantly.' },
-            { step: '02', icon: '🔬', title: 'Audit', desc: 'Our engine computes fairness metrics and Gemma 4 explains the bias in plain English.' },
+            { step: '02', icon: '🔬', title: 'Audit', desc: 'Our engine computes fairness metrics and Gemma 3 explains the bias in plain English.' },
             { step: '03', icon: '🛠️', title: 'Fix', desc: 'Apply automated debiasing techniques and watch metrics improve in real time.' },
           ].map(({ step, icon, title, desc }) => (
             <div key={step} className="relative p-6 bg-white/5 border border-white/10 rounded-2xl">
@@ -133,7 +133,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <div className="border-t border-white/10 py-8 text-center text-slate-500 text-sm">
-        <p>FairLens — Solution Challenge 2026 | Powered by Gemma 4, Fairlearn, AIF360, SHAP</p>
+        <p>FairLens — Solution Challenge 2026 | Powered by Gemma 3, Fairlearn, AIF360, SHAP</p>
       </div>
     </div>
   );
