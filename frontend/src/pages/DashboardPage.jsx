@@ -22,7 +22,7 @@ export default function DashboardPage() {
   const [downloadingPdf, setDownloadingPdf] = useState(false);
   const [remediationResult, setRemediationResult] = useState(null);
 
-  // Once audit completes, call Gemma 4
+  // Once audit completes, call Gemma 3
   useEffect(() => {
     if (isComplete && results) {
       setGemmaLoading(true);
@@ -61,7 +61,7 @@ export default function DashboardPage() {
           <div className="text-5xl mb-6">🔬</div>
           <h2 className="text-2xl font-bold mb-3">Analyzing Your Dataset</h2>
           <p className="text-slate-400 mb-8">
-            Gemma 4 is reviewing the results as they come in...
+            Gemma 3 is reviewing the results as they come in...
           </p>
 
           {/* Progress Bar */}
@@ -137,7 +137,7 @@ export default function DashboardPage() {
 
       <div className="max-w-7xl mx-auto px-8 py-8 space-y-8">
 
-        {/* Gemma 4 AI Insight */}
+        {/* Gemma 3 AI Insight */}
         <GemmaInsight
           explanation={gemmaExplanation}
           recommendation={gemmaRecommendation}

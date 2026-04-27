@@ -56,9 +56,9 @@ export default function StepPreview({ jobId, columns, config, onAuditStarted, on
 
       {/* What happens next */}
       <div className="p-5 bg-blue-500/10 border border-blue-500/20 rounded-2xl">
-        <p className="text-blue-300 text-sm font-medium mb-2">🤖 What Gemma 4 will do</p>
+        <p className="text-blue-300 text-sm font-medium mb-2">🤖 What Gemma 3 will do</p>
         <p className="text-slate-400 text-sm">
-          After the audit completes, Gemma 4 will analyze the results and generate a plain-English
+          After the audit completes, Gemma 3 will analyze the results and generate a plain-English
           explanation of any bias found — and recommend the best fix for your specific case.
         </p>
       </div>

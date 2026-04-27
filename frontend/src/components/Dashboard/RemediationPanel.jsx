@@ -39,7 +39,7 @@ export default function RemediationPanel({ jobId, results, remediationResult, se
     const result = await applyFix(jobId, selected);
     if (result) {
       setRemediationResult(result);
-      // Get Gemma 4 summary of what changed
+      // Get Gemma 3 summary of what changed
       const summary = await summarizeRemediationWithGemma(result.before, result.after, selected);
       setGemmaSummary(summary);
     }
@@ -49,7 +49,7 @@ export default function RemediationPanel({ jobId, results, remediationResult, se
     <div className="p-6 bg-white/5 border border-white/10 rounded-2xl">
       <h3 className="font-bold text-lg mb-2">Apply a Fix</h3>
       <p className="text-slate-400 text-sm mb-6">
-        Select a debiasing technique and click Apply. Gemma 4 will explain what changed.
+        Select a debiasing technique and click Apply. Gemma 3 will explain what changed.
       </p>
 
       {/* Technique Cards */}
@@ -68,7 +68,7 @@ export default function RemediationPanel({ jobId, results, remediationResult, se
             >
               {isRecommended && (
                 <div className="absolute -top-2 -right-2 px-2 py-0.5 bg-purple-600 text-white text-xs rounded-full font-semibold">
-                  Gemma 4 ✨
+                  Gemma 3 ✨
                 </div>
               )}
               <div className="text-2xl mb-2">{t.icon}</div>
@@ -134,10 +134,10 @@ export default function RemediationPanel({ jobId, results, remediationResult, se
             </div>
           </div>
 
-          {/* Gemma 4 Summary */}
+          {/* Gemma 3 Summary */}
           {gemmaSummary && (
             <div className="p-4 bg-purple-500/10 border border-purple-500/20 rounded-xl">
-              <p className="text-xs font-semibold text-purple-400 mb-2">🤖 Gemma 4 Summary</p>
+              <p className="text-xs font-semibold text-purple-400 mb-2">🤖 Gemma 3 Summary</p>
               <p className="text-slate-300 text-sm leading-relaxed">{gemmaSummary}</p>
             </div>
           )}

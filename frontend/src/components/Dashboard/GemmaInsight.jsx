@@ -6,16 +6,16 @@ export default function GemmaInsight({ explanation, recommendation, loading }) {
     <div className="p-6 bg-linear-to-r from-purple-900/30 to-blue-900/30 border border-purple-500/20 rounded-2xl">
       <div className="flex items-center gap-2 mb-4">
         <span className="text-xl">🤖</span>
-        <span className="font-bold text-purple-300">Gemma 4 AI Analysis</span>
+        <span className="font-bold text-purple-300">Gemma 3 AI Analysis</span>
         <span className="px-2 py-0.5 text-xs bg-purple-500/20 text-purple-300 rounded-full border border-purple-500/30">
-          Powered by Google Gemma 4
+          Powered by Google Gemma 3
         </span>
       </div>
 
       {loading ? (
         <div className="flex items-center gap-3 text-slate-400">
           <div className="w-4 h-4 border-2 border-purple-400 border-t-transparent rounded-full animate-spin" />
-          <span className="text-sm">Gemma 4 is analyzing the bias patterns...</span>
+          <span className="text-sm">Gemma 3 is analyzing the bias patterns...</span>
         </div>
       ) : (
         <div className="grid grid-cols-2 gap-6">
