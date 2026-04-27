@@ -1,0 +1,31 @@
+# FairMind Root Requirements
+# This file contains the core dependencies for the FairMind project
+# Split between backend and frontend requirements
+
+# Backend Dependencies (Python)
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+SQLAlchemy==2.0.25
+pandas==2.2.0
+scikit-learn==1.4.0
+fairlearn==0.10.0
+aif360==0.6.0
+tensorflow==2.15.0
+numpy==1.26.3
+pytest==8.0.0
+requests==2.31.0
+shap
+python-multipart
+reportlab
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Frontend Dependencies (JavaScript/Node.js)
+# See frontend/package.json for npm dependencies
+# Key packages:
+# - react: ^19.2.5
+# - react-router-dom: ^7.14.2
+# - axios: ^1.15.2
+# - recharts: ^3.8.1
+# - tailwindcss: ^4.2.4
+# - @google/generative-ai: ^0.24.1
