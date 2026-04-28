@@ -15,7 +15,7 @@ numpy==1.26.3
 pytest==8.0.0
 requests==2.31.0
 shap
-python-multipart
+python-multipart==0.0.9
 reportlab
 python-jose[cryptography]
 passlib[bcrypt]
