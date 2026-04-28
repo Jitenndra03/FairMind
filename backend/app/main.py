@@ -17,7 +17,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://fair-mind-beta.vercel.app/",
+        "https://fair-mind-git-main-jitendra-singhs-projects-9128392d.vercel.app/",
     ],
     allow_credentials=True,
     allow_methods=["*"],
