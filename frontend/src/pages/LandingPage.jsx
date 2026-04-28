@@ -37,7 +37,7 @@ export default function LandingPage() {
       <nav className="flex items-center justify-between px-8 py-5 border-b border-white/10">
         <div className="flex items-center gap-2">
           <span className="text-2xl">🔍</span>
-          <span className="text-xl font-bold text-white">FairLens</span>
+          <span className="text-xl font-bold text-white">Fair Mind</span>
           <span className="ml-2 px-2 py-0.5 text-xs bg-blue-500/20 text-blue-300 rounded-full border border-blue-500/30">
             Powered by Gemma 3
           </span>
@@ -61,7 +61,7 @@ export default function LandingPage() {
           <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-400"> harms real people</span>
         </h1>
         <p className="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">
-          FairLens detects bias in your ML models, explains it using Gemma 3,
+          Fair Mind detects bias in your ML models, explains it using Gemma 3,
           and applies automated fixes — in under 2 minutes.
         </p>
         <div className="flex items-center justify-center gap-4">
@@ -103,7 +103,7 @@ export default function LandingPage() {
       <div id="demo" className="max-w-5xl mx-auto px-8 py-16">
         <h2 className="text-3xl font-bold text-center mb-4">Try a Demo Dataset</h2>
         <p className="text-slate-400 text-center mb-12">
-          No upload needed — pick a real-world dataset and see FairLens in action
+          No upload needed — pick a real-world dataset and see Fair Mind in action
         </p>
         <div className="grid grid-cols-3 gap-6">
           {datasets.map((ds) => (
@@ -133,7 +133,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <div className="border-t border-white/10 py-8 text-center text-slate-500 text-sm">
-        <p>FairLens — Solution Challenge 2026 | Powered by Gemma 3, Fairlearn, AIF360, SHAP</p>
+        <p>Fair Mind — Solution Challenge 2026 | Powered by Gemma 3, Fairlearn, AIF360, SHAP</p>
       </div>
     </div>
   );

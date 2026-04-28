@@ -29,6 +29,6 @@ def download_report(job_id: str, db: Session = Depends(get_db)):
         content=pdf_bytes,
         media_type="application/pdf",
         headers={
-            "Content-Disposition": f'attachment; filename="FairLens_Audit_{job_id}.pdf"'
+            "Content-Disposition": f'attachment; filename="Fair Mind_Audit_{job_id}.pdf"'
         }
     )

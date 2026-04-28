@@ -43,7 +43,7 @@ export default function DashboardPage() {
       const url = window.URL.createObjectURL(new Blob([data], { type: 'application/pdf' }));
       const link = document.createElement('a');
       link.href = url;
-      link.download = `FairLens_Audit_${jobId}.pdf`;
+      link.download = `Fair Mind_Audit_${jobId}.pdf`;
       link.click();
       window.URL.revokeObjectURL(url);
     } catch (err) {
@@ -110,7 +110,7 @@ export default function DashboardPage() {
           >
             ← Home
           </button>
-          <span className="text-xl font-bold">🔍 FairLens</span>
+          <span className="text-xl font-bold">🔍 Fair Mind</span>
           <span className="text-slate-600">|</span>
           <span className="text-slate-400 text-sm">{results?.dataset_name}</span>
           <span className="text-slate-600">·</span>

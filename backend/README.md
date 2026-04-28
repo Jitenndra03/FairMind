@@ -1,4 +1,4 @@
-## FairLens — Backend
+## Fair Mind — Backend
 
 **Tech Stack:** Python 3.11, FastAPI, SQLAlchemy, SQLite, Pandas, Fairlearn, AIF360, SHAP, ReportLab
 
@@ -64,8 +64,8 @@ Three datasets are bundled in `backend/datasets/`:
 ### Docker
 
 ```bash
-docker build -t fairlens-backend .
-docker run -p 8000:8000 fairlens-backend
+docker build -t Fair Mind-backend .
+docker run -p 8000:8000 Fair Mind-backend
 ```
 
 ---

@@ -50,7 +50,7 @@ class PDFBuilder:
 
         # ── Cover ──────────────────────────────────────────────
         story.append(Spacer(1, 1.5*cm))
-        story.append(Paragraph("FairLens Audit Report", title_style))
+        story.append(Paragraph("Fair Mind Audit Report", title_style))
         story.append(Spacer(1, 0.3*cm))
         story.append(Paragraph(f"Dataset: <b>{results.get('dataset_name', 'Unknown')}</b>", body_style))
         story.append(Paragraph(f"Protected Attribute: <b>{results.get('protected_attribute', '')}</b>", body_style))

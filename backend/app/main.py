@@ -11,13 +11,13 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S",
 )
 
-app = FastAPI(title="FairLens API", version="1.0.0")
+app = FastAPI(title="Fair Mind API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://fairlens.vercel.app",
+        "https://Fair Mind.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],

@@ -13,7 +13,7 @@ export default function StepConfigure({ columns, onNext, onBack }) {
     <div className="space-y-8">
       <div className="text-center">
         <h2 className="text-2xl font-bold mb-2">Configure Your Audit</h2>
-        <p className="text-slate-400">Tell FairLens what to look for in your dataset</p>
+        <p className="text-slate-400">Tell Fair Mind what to look for in your dataset</p>
       </div>
 
       <div className="space-y-6">

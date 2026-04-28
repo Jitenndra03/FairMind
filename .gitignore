@@ -1,6 +1,6 @@
 *.pdf
 *.png
-FairLens_*.md
+Fair Mind_*.md
 node_modules/
 venv/
 __pycache__/

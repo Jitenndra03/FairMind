@@ -26,7 +26,7 @@ export default function WizardPage() {
         >
           ← Back
         </button>
-        <span className="text-xl font-bold">🔍 FairLens</span>
+        <span className="text-xl font-bold">🔍 Fair Mind</span>
       </div>
 
       {/* Step Indicator */}
