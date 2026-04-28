@@ -15,11 +15,8 @@ app = FastAPI(title="FairLens API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "https://fair-mind-beta.vercel.app/",
-    ],
-    allow_credentials=True,
+    allow_origins=["*"],  # allows all origins
+    allow_credentials=False,  # must be False when using wildcard
     allow_methods=["*"],
     allow_headers=["*"],
 )
